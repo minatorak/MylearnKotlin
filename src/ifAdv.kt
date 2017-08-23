@@ -9,12 +9,13 @@ fun main(args: Array<String>) {
         maxx=n2
     }
 
-    print("max: $max")
-    print("maxx: $maxx")
+    println("max: $max")
+    println("maxx: $maxx")
     //
     var age=30
+
     var isYoung=when(age){
-        30->true
+        in 10..30->true
         else->false
     }
     println("isYoung:$isYoung")
