@@ -1,3 +1,5 @@
+package MySourceCode
+
 fun main(args: Array<String>) {
     var map= hashMapOf(1 to "Mil tank",2 to "King dra")
     map.put(3,"Unown")

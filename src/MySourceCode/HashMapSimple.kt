@@ -1,3 +1,5 @@
+package MySourceCode
+
 fun main(args: Array<String>) {
     var map=HashMap<Int,String>()
     map.put(1,"Fu shi gi dane")

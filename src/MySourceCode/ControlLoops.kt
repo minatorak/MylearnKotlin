@@ -1,3 +1,5 @@
+package MySourceCode
+
 fun main(args: Array<String>) {
 
     for (count in 1..10){

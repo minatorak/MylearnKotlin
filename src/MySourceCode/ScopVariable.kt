@@ -1,4 +1,4 @@
-package course
+package MySourceCode
 
 var myName = "global"
 /*

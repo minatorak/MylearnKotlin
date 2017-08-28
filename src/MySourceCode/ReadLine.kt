@@ -1,3 +1,5 @@
+package MySourceCode
+
 fun main(args: Array<String>) {
     print("please enter your name:")
     var name= readLine()

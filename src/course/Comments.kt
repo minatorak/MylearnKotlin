@@ -1,5 +1,5 @@
 
-// This main function
+// This MySourceCode.main function
 fun main(args:Array<String>){
     //Enter user name
     print("Enter name:")

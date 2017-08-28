@@ -1,3 +1,5 @@
+package MySourceCode
+
 fun main(args: Array<String>) {
     println("Hello world")
     var name = "Sirirak"

@@ -1,3 +1,5 @@
+package MySourceCode
+
 fun main(args: Array<String>) {
     val x = 11
     when (x) {

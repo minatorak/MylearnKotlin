@@ -1,3 +1,5 @@
+package MySourceCode
+
 fun main(args: Array<String>) {
     var arrayInt = Array<Int>(5){0}
     arrayInt[3]=16
