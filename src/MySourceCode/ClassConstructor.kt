@@ -2,6 +2,9 @@ package MySourceCode
 
 class Car1(Type:String,Model:Int,Price:Double,
            MilesDrive:Int,Owner:String){
+    var Owner:String?=null
+    var MilesDrive:Int?=null
+    var Price:Double?=null
 
     init {
         println("Type :$Type")
@@ -9,24 +12,19 @@ class Car1(Type:String,Model:Int,Price:Double,
         println("Price :$Price")
         println("MilesDrive :$MilesDrive")
         println("Owner :$Owner")
-
+        this.MilesDrive=MilesDrive
+        this.Owner = Owner
+        this.Price = Price
     }
 
-  /*  var Owner:String?=null
-    var Price:Double?=null
-    var MilesDrive:Int?=null
-    var Model:Int?=null
-    var Type:String?=null
-
-    constructor(Type:String,Model:Int,Price:Double,
-                MilesDrive:Int,Owner:String) : this() {
-
+    fun GetOwner():String?{
+        return this.Owner
     }
-*/
+
 }
 
 fun main(args: Array<String>) {
     var MyCar = Car1("BMW",2015,1000.0,105,"Sirirak")
-
-
+    println("GetOwner : "+MyCar.GetOwner())
+    println("non method price : "+MyCar.Price)
 }
