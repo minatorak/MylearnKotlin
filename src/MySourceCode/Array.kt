@@ -1,7 +1,10 @@
 
 fun main(args:Array<String>){
 
-    var arrayInt= Array<Int>(5){0}
+    var arrayInt= Array<Int>(5){
+        0
+    }// create [0,0,0,0,0]
+
     arrayInt[3]=55
     println("Array[3]="+ arrayInt[3])
 
