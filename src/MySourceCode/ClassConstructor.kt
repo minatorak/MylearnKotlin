@@ -1,12 +1,14 @@
 package MySourceCode
 
-class Car1(Type:String,Model:Int,Price:Double,
-           MilesDrive:Int,Owner:String){
+class CarCon(){
+    var Model:Int?=null
+    var Type:String?=null
     var Owner:String?=null
     var MilesDrive:Int?=null
     var Price:Double?=null
 
-    init {
+    constructor(Type:String,Model:Int,Price:Double,
+                MilesDrive:Int,Owner:String) : this() {
         println("Type :$Type")
         println("Model :$Model")
         println("Price :$Price")
@@ -15,7 +17,13 @@ class Car1(Type:String,Model:Int,Price:Double,
         this.MilesDrive=MilesDrive
         this.Owner = Owner
         this.Price = Price
+        this.Model = Model
+        this.Type = Type
     }
+    constructor(Owner: String):this(){
+        println("new class")
+    }
+
 
     fun GetOwner():String?{
         return this.Owner
@@ -24,7 +32,8 @@ class Car1(Type:String,Model:Int,Price:Double,
 }
 
 fun main(args: Array<String>) {
-    var MyCar = Car1("BMW",2015,1000.0,105,"Sirirak")
+    var MyCar = CarCon("BMW",2015,1000.0,105,"Sirirak")
     println("GetOwner : "+MyCar.GetOwner())
     println("non method price : "+MyCar.Price)
+    var car = CarCon("jo")
 }
