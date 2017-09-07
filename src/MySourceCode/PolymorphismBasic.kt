@@ -1,5 +1,5 @@
 package MySourceCode
-fun show(name:String):Unit{
+fun show(name:String){
     println("name :"+ name)
 }
 fun show(number:Int):Unit{
