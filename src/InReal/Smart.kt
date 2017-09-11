@@ -16,11 +16,9 @@ class Smart{
 
         if (local != null)
             println(local.substring(1,2))
-
         /*
         or
         */
-
         println(local?.substring(1,2))
 
         println(prop!!.substring(1,2))
