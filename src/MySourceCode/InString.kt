@@ -4,6 +4,8 @@ fun main(args: Array<String>) {
 
     var title=" welcome to new york"
     var Text="title:$title"
+
+
     println(Text)
     println(Text[3])
     println(Text.toUpperCase())
@@ -11,5 +13,8 @@ fun main(args: Array<String>) {
     println(Text.length)
     println(Text.split(" "))
     println(Text.trim())
-    
+
+    val Str = """
+        String format
+        """
 }
