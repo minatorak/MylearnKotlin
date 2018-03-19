@@ -1,7 +1,6 @@
 package InReal
 
 import java.util.*
-import kotlin.streams.toList
 
 class JavaStreams{
     val rang: IntRange = 1..10
@@ -14,8 +13,7 @@ fun main(args: Array<String>) {
 
     val list = JavaStreams().list as Collection<Int>
     println(list)
-    println("list 2 "+list.stream().filter { it > 4  }.toList())
-
+    
     list.forEach {
 
     }

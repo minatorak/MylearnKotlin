@@ -26,4 +26,12 @@ fun main(args:Array<String>){
         println("arrayStr[ $index ]="+ arrayStr[index])
     }
 
+    println()
+    val asc = Array(5, { i -> (i * i).toString() })
+    for (a in asc) println(a)
+
+    println()
+    val x:IntArray = intArrayOf(1,2,3)
+    x[0] = x[1]+x[2]
+    println(x[0])
 }

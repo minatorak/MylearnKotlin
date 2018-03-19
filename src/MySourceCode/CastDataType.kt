@@ -13,5 +13,8 @@ fun main(args: Array<String>) {
 
     val name = "pikacho"
     val people:List<String> = ArrayList()
-    
+
+    var Lo:Long = 2L
+    Lo += 3 // Long + Int => Long
+
 }
