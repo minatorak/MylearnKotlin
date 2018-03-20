@@ -20,4 +20,10 @@ fun main(args: Array<String>) {
         println("count : $count")
         count++
     }while (count<=5)
+
+    var ran = 1..9
+    for (item:Int in ran){
+
+    }
+
 }
